@@ -1,0 +1,10 @@
+[core]
+	editor = nvim
+[user]
+	name = Lílian Ferreira de Freitas
+	email = lily.mosquitoes@gmail.com
+	signingKey = F57A020033A1A53E
+[init]
+	defaultBranch = main
+[commit]
+	gpgSign = true
