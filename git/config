@@ -8,3 +8,8 @@
 	defaultBranch = main
 [commit]
 	gpgSign = true
+[log]
+	showSignature = true
+[alias]
+	graph = log --graph --decorate --abbrev-commit --all
+        rb = -c commit.gpgSign=false rebase --exec 'git commit --amend --no-edit --gpg-sign' -i
