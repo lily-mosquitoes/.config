@@ -1,6 +1,5 @@
-*/
+/*
 !/git/
 !/nvim/
-!/nvim/lua/
-!/nvim/lua/plugins/
 !/tmux/
+/tmux/plugins/
